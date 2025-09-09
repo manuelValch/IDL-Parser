@@ -97,7 +97,7 @@ publishing {
    }
    repositories {
       maven {
-         url publishURL
+         url = publishURL
          credentials.username = publishUsername
          credentials.password = publishPassword
       }
